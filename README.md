@@ -3,6 +3,7 @@
 1 - Go é uma linguagem Compilada - muito parecido com C!
 
 CÓDIGO -> COMPILADOR DO CÓDIGO -> LINGUAGEM DE MÁQUINA -> LINKING (LINGUAGEM) -> EXECUTÁVEL (PROGRAMA)
+
 main.go -> compilador do Go -> executável main
 
 - Go é uma linguagem multi-plataforma!
