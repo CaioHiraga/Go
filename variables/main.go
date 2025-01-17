@@ -1,7 +1,11 @@
 package main
 
+// programa escopo 1 (inicial/maior escopo)
 import "fmt"
 
+const i float64 = 5.5
+
+// main - escopo 2 (menor / mais limitado)
 func main() {
 	x := "Hello World" //criação/declaração e atribuição de x -> :=
 	fmt.Println(x)     //referencia a x
@@ -20,4 +24,6 @@ func main() {
 	fmt.Println(d)
 
 	// estaticamente tipado + fortemente tipado
+
+	fmt.Println(i)
 }
